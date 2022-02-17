@@ -1,6 +1,5 @@
-export type Props = {};
-
-export type State = {
+export type Props = {
   squares: any[];
   xIsNext: boolean;
+  onClick: (index: number) => any;
 };
